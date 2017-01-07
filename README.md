@@ -25,11 +25,11 @@ In your `Gemfile`, add the following dependencies:
 
 To install from edge:
 
-    gem 'spree_contact_us', :git => 'https://github.com/spree-contrib/spree_contact_us'
+    gem 'spree_contact_us', :git => 'https://github.com/chandananc/spree_contact_us'
 
 Or install from latest stable version:
 
-    gem 'spree_contact_us', github: 'spree-contrib/spree_contact_us', branch: '3-0-stable'
+    gem 'spree_contact_us', github: 'chandananc/spree_contact_us', branch: '3-0-stable'
 
 From `Rails.root` run:
 
