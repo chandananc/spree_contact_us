@@ -1,0 +1,3 @@
+<p><%= @formcontact.message %></p>
+<p>---------------------</p>
+<p><%= SpreeContactUs.require_name ? Spree.t(:sent_by_name, :email => @formcontact.email, :name => @formcontact.name) : Spree.t(:sent_by_formcontact_form, :email => @formcontact.email) %></p>
